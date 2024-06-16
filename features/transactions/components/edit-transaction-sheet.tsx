@@ -128,7 +128,9 @@ export const EditTransactionSheet = () => {
                         categoryOptions={categoryOptions}
                         onCreateCategory={onCreateCategory}
                         accountOptions={accountOptions}
-                        onCreateAccount={onCreateAccount}/>
+                        onCreateAccount={onCreateAccount}
+                        onDelete={onDelete}
+                        />
                     )
                 } 
             </SheetContent>
